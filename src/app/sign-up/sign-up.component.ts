@@ -13,7 +13,7 @@ export class SignUpComponent implements OnInit {
   private router = inject(Router);
 
   ngOnInit(): void {
-    this.router.navigate(['/sign-in'], { queryParams: { success: true } }).then();
+    this.router.navigate(['/sign-in'], { queryParams: { success: true } });
   }
 
 }
